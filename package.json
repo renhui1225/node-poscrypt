@@ -1,0 +1,20 @@
+{
+    "name": "des",
+    "version": "3.1.0",
+    "main": "build/Release/des.node",
+    "description": "A C++ module that does DES encryption.",
+    "author": {
+        "name": "renhui",
+        "email": "renhui1225@163.com",
+    }, 
+    "keywords" : [ "des", "encrypt", "encryption" ],
+    "licenses": "GPL",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/renhui1225/node-poscrypt.git" 
+    }, 
+    "engines": {
+        "node" : ">=0.6.0"
+    }
+}
+
