@@ -26,12 +26,12 @@
     "node_use_perfctr": "true",
     "node_use_systemtap": "false",
     "python": "c:\\python27\\python.exe",
-    "target_arch": "ia32",
+    "target_arch": "x64",
     "v8_enable_gdbjit": 0,
     "v8_no_strict_aliasing": 1,
     "v8_use_snapshot": "true",
     "visibility": "",
-    "nodedir": "c:\\Users\\Administrator\\.node-gyp\\0.10.28",
+    "nodedir": "c:\\Users\\renhui\\.node-gyp\\0.10.22",
     "copy_dev_lib": "true",
     "standalone_static_library": 1
   }

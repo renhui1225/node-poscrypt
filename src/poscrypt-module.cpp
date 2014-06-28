@@ -143,13 +143,8 @@ calcmac(const Arguments &args)
     {
         return VException("<encryption key> must be a buffer.");
     }
-	Local<Object> data_obj = args[0]->ToObject();
+	  Local<Object> data_obj = args[0]->ToObject();
     size_t dlen = Buffer::Length(data_obj);
-
-	if (dlen % 8 != 0)
-    {
-        return VException("<data> length must be multiple of 8.");
-    }
 
 	Local<Object> key_obj = args[1]->ToObject();
 	size_t klen = Buffer::Length(key_obj);

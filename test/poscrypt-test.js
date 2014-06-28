@@ -59,3 +59,8 @@ exports.challenge_response = function () {
 };
 
 */
+
+
+var calcmac = poscrypt.calcmac(data, key);
+
+console.log(hexdump(encrypted));
